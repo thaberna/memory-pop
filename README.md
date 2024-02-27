@@ -1,8 +1,9 @@
-# React + Vite
+# Memory Pop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El juego de memory con temática de Funko Pop (El Señor de los Anillos). En este caso hemos utilizando React (Vite) con Tailwind y Framer Motion para realizar todas las animaciones del juego.
 
-Currently, two official plugins are available:
+![image](https://github.com/thaberna/memory-pop/assets/145760610/6c6dd13d-e70a-41c7-9d53-4a49cc624116)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El juego utiliza un sistema sencillo de puntuación y un contador de tiempo.
+
+![image](https://github.com/thaberna/memory-pop/assets/145760610/06efcff7-5b6a-41a1-b9cc-1e7481032001)
