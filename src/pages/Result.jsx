@@ -1,8 +1,5 @@
 import { useLocation } from "react-router-dom";
-import Layout from "../components/Layout";
-import Timer from "../components/Timer";
-import Score from "../components/Score";
-import Button from "../components/Button";
+import { Button, Layout, Score, Timer } from "../components";
 
 export default function Result() {
   const location = useLocation();

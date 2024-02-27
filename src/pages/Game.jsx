@@ -1,21 +1,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Layout from "../components/Layout";
-import Card from "../components/Card";
-import Timer from "../components/Timer";
+import { Button, Card, Layout, Score, Timer } from "../components";
 import { cards } from "../constants/cards";
-import Score from "../components/Score";
-import Button from "../components/Button";
-
-function ramdomizer(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const randomIndex = Math.floor(Math.random() * (i + 1));
-
-    // Swap the elements at i and randomIndex
-    [array[i], array[randomIndex]] = [array[randomIndex], array[i]];
-  }
-  return array;
-}
+import { ramdomizer } from "../constants/utils";
 
 export default function Game() {
   const [board, setBoard] = useState(() => {

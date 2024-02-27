@@ -1,7 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Game from "./pages/Game";
-import Result from "./pages/Result";
+import { Game, Home, Result } from "./pages";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
