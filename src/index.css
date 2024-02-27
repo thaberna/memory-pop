@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "meoow";
+    src: url("/fonts/MEOOW.otf");
+}
+
+.text-stroke {
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+
+.bg-gradient {
+    @apply bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-400
+}
